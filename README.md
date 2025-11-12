@@ -1,6 +1,6 @@
 # Dumroo.ai - AI Developer Assignment
 
-This project implements an AI-powered chat system for the Dumroo Admin Panel[cite: 3, 6]. It allows admins to ask natural language questions about student data, with a critical feature: **Role-Based Access Control (RBAC)**.
+This project implements an AI-powered chat system for the Dumroo Admin Panel. It allows admins to ask natural language questions about student data, with a critical feature: **Role-Based Access Control (RBAC)**.
 
 The system enforces RBAC by filtering the dataset *before* it is passed to the AI agent, ensuring an admin can only access data within their assigned scope (e.g., their specific grade or region).
 
@@ -9,7 +9,7 @@ This solution is built using Python, Streamlit, Pandas, and LangChain.
 ## Features
 
 * **Natural Language Queries:** Ask questions like "how many students failed the quiz?".
-* **Strict RBAC:** Admins are simulated via a dropdown. [cite_start]The data is filtered *before* the AI sees it, guaranteeing security.
+* **Strict RBAC:** Admins are selected via a dropdown. The data is filtered *before* the AI sees it, guaranteeing security.
 * **Streamlit Interface:** A clean, interactive web app for demo purposes (Bonus).
 * **Conversational Memory:** The agent can answer follow-up questions (Bonus).
 * **Modular Code:** The logic is split into `auth.py`, `query_engine.py`, and `app.py` for maintainability (Bonus).
