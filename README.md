@@ -1,18 +1,18 @@
 # Dumroo.ai - AI Developer Assignment
 
-[cite_start]This project implements an AI-powered chat system for the Dumroo Admin Panel[cite: 3, 6]. [cite_start]It allows admins to ask natural language questions about student data, with a critical feature: **Role-Based Access Control (RBAC)**.
+This project implements an AI-powered chat system for the Dumroo Admin Panel[cite: 3, 6]. [cite_start]It allows admins to ask natural language questions about student data, with a critical feature: **Role-Based Access Control (RBAC)**.
 
-[cite_start]The system enforces RBAC by filtering the dataset *before* it is passed to the AI agent, ensuring an admin can only access data within their assigned scope (e.g., their specific grade or region).
+The system enforces RBAC by filtering the dataset *before* it is passed to the AI agent, ensuring an admin can only access data within their assigned scope (e.g., their specific grade or region).
 
-[cite_start]This solution is built using Python, Streamlit, Pandas, and LangChain[cite: 32].
+This solution is built using Python, Streamlit, Pandas, and LangChain[cite: 32].
 
 ## Features
 
-* [cite_start]**Natural Language Queries:** Ask questions like "how many students failed the quiz?"[cite: 7].
+* **Natural Language Queries:** Ask questions like "how many students failed the quiz?"[cite: 7].
 * **Strict RBAC:** Admins are simulated via a dropdown. [cite_start]The data is filtered *before* the AI sees it, guaranteeing security[cite: 16].
-* [cite_start]**Streamlit Interface:** A clean, interactive web app for demo purposes (Bonus).
-* [cite_start]**Conversational Memory:** The agent can answer follow-up questions (Bonus).
-* [cite_start]**Modular Code:** The logic is split into `auth.py`, `query_engine.py`, and `app.py` for maintainability (Bonus).
+* **Streamlit Interface:** A clean, interactive web app for demo purposes (Bonus).
+* **Conversational Memory:** The agent can answer follow-up questions (Bonus).
+* **Modular Code:** The logic is split into `auth.py`, `query_engine.py`, and `app.py` for maintainability (Bonus).
 
 ## Setup & Running
 
@@ -44,11 +44,11 @@
     * Select a **mock admin user** from the dropdown.
     * Ask questions in the chat box!
 
-## [cite_start]Example Queries 
+## Example Queries 
 
 Try these queries after selecting an admin (e.g., **Ms. Davis - Grade 8**):
 
-* [cite_start]`"Which students haven't submitted their homework yet?"` [cite: 8]
+* `"Which students haven't submitted their homework yet?"` 
 * `"What is the average quiz score for my students?"`
 * `"How many students are in class A?"`
 * `"Show me the names of students who scored below 70 on the quiz."`
