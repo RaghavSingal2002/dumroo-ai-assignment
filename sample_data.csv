@@ -1,0 +1,11 @@
+student_id,student_name,class,grade,homework_status,quiz_score,quiz_date,
+1001,Alice Smith,A,8,Submitted,85,2025-11-10,
+1002,Bob Johnson,A,8,Not Submitted,72,2025-11-10,
+1003,Charlie Brown,B,9,Submitted,91,2025-11-12,
+1004,David Lee,B,9,Submitted,88,2025-11-12,
+1005,Eva Green,C,8,Not Submitted,65,2025-11-11,
+1006,Frank White,C,10,Submitted,78,2025-11-13,
+1007,Grace Hall,A,9,Not Submitted,79,2025-11-12,
+1008,Henry King,B,10,Submitted,82,2025-11-13,
+1009,Ivy Scott,C,8,Submitted,90,2025-11-11,
+1010,Jack Miller,A,10,Not Submitted,75,2025-11-13
